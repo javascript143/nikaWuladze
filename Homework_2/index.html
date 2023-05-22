@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // *******************
+      // task 1
+      // *******************
+
+      let myArray = [1, 2, 3, 4, 5];
+
+      if (myArray.length <= 1) {
+        alert("this is not array!");
+      } else {
+        alert("this is array!");
+      }
+
+      // *******************
+      // task 2
+      // *******************
+
+      let Array = [1, 2, 3, 4];
+      alert(myArray[0]);
+
+      // ********************
+      // task 3
+      // ********************
+
+      let Array2 = [1, 2, 3, 4, 5, 8];
+      alert(Array2[Array2.length - 1]);
+
+      // *********************
+      //  task 4
+      // *********************
+
+      let color = [
+        "Blue",
+        "Green",
+        "Red",
+        "Orange",
+        "Violet",
+        "Indigo",
+        "Yellow",
+      ];
+
+      let o = ["th", "st", "nd", "rd"];
+      alert(1 + o[1] + " " + "choice is" + " " + color[0]);
+      alert(2 + o[2] + " " + "choice is" + " " + color[1]);
+      alert(3 + o[3] + " " + "choice is" + " " + color[2]);
+
+      // *********************
+      // task 5
+      // *********************
+
+      let studentStats = {
+        name: "Nika",
+        surname: "Wuladze",
+      };
+      alert(studentStats);
+
+      studentStats.age = "15";
+      alert(studentStats.age);
+
+      delete studentStats.surname;
+      alert(studentStats.surname);
+
+      studentStats.name = "Salome";
+      alert(studentStats.name);
+    </script>
+  </body>
+</html>
