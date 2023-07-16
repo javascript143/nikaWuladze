@@ -1,0 +1,78 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: antiquewhite;
+  padding: 2.5em;
+}
+p {
+  font-size: 1.3rem;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+}
+.welcomeText {
+  font-size: 2rem;
+  text-align: center;
+}
+.niceDay {
+  color: blue;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+.foundersHeading {
+  font-size: 2rem;
+  border: 3px solid blue;
+  width: fit-content;
+  margin: 1em auto;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+.founderImgs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.card {
+  width: 200px;
+  height: 250px;
+  position: relative;
+}
+.founderText {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .founderImgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .founderImgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
