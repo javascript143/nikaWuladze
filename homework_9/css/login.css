@@ -1,0 +1,12 @@
+body {
+  height: 100vh;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40%;
+  gap: 5px;
+}
